@@ -6,11 +6,6 @@
 
 # Caso seja inserido um número de operação que não exista, o resultado deverá ser 0.
 def calcular(num1,num2,operacao):
-    if(type(num1) == str or type(num1) == bool):
-        return 0
-    elif(type(num2) == str or type(num2) == bool):
-        return 0
-        
     match operacao:
         case 1:
             return num1 + num2
@@ -21,7 +16,7 @@ def calcular(num1,num2,operacao):
         case 4:
             return num1 / num2
         case _:
-            return "Operação inválida"
+            return 0
 
 res = calcular(2,2,1)
 print(res) #retorna 4
