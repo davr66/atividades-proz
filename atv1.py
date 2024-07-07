@@ -19,7 +19,7 @@ while(andar <= 20):
         print(andar)
     andar += 1
 
-#SOLUÇÃO 3 - decrescente
+#DESAFIO - decrescente
 for andar in range(20,0,-1):
     if(andar != 13):
         print(andar)
