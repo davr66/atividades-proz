@@ -1,0 +1,38 @@
+*{
+    background-color: aquamarine;
+    font-family: 'Arial';
+}
+
+header, #mzero,nav{
+    border-radius: 20px;
+}
+
+header , nav, ul, li,a{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+#imagens{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer, span, footer > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
